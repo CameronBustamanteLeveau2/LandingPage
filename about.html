@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        body {
+            background-color: #c397fc;
+            color: #333333; /* Color principal del texto */
+        }
+
+        header {
+            background-color: #4c0082;/* Morado oscuro para el encabezado */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+
+        .navigation {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .navigation li {
+            margin-right: 20px;
+        }
+
+        .navigation li a {
+            text-decoration: none;
+            color: #ffffff; /* Texto blanco para los enlaces */
+            font-weight: bold;
+        }
+
+        .main {
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            max-height: 500px;
+            background-color: #c397fc;
+            color: #ffffff; border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.218);
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centra el contenido */
+            text-align: center; /* Centra el texto */
+        }
+
+        .img-one {
+            flex: 1;
+        }
+
+        .content-one {
+            flex: 1;
+            padding: 30px;
+        }
+
+        .image-block {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.218);
+            width: 700px;
+            height: 600px;
+            display: block;
+            border-radius: 8px;
+         
+        }
+
+        .section-head {
+            font-size: 48px; /* Tamaño más grande para el título */
+            font-weight: bold;
+            margin-bottom: 20px;
+             /* Morado oscuro para el título */
+        }
+
+        .section-text {
+            font-size: 20px; /* Tamaño de texto más grande */
+            line-height: 32px; /* Espaciado de línea más amplio */
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4B0082; /* Morado oscuro para el pie de página */
+            color: #ffffff; /* Texto blanco para el pie de página */
+            margin-top: 20px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="img/logo.png" class="logo" alt="Logo"></a>
+        <ul class="navigation">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div class="img-one">
+                <img alt="golden-lines.png" class="image-block bg-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/golden%20lines.png">
+            </div>
+            <div class="content-one">
+                <p class="text-blk section-head">
+                  Nuestra Historia
+                </p>
+                <p class="text-blk section-text">
+                    El tema central de InventaPRO de es la "Optimización Avanzada de Gestión de Inventarios para Empresas". Esta aplicación empresarial está diseñada para simplificar y mejorar significativamente la gestión de inventarios mediante las sus funcionalidades como alertas automáticas de stock bajo y notificaciones de alta demanda que facilitan el reabastecimiento oportuno y la adaptación ágil a las necesidades del mercado. 
+                </p>
+             
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
